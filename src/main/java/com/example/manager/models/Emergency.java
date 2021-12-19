@@ -1,14 +1,14 @@
-package com.example.manager;
+package com.example.manager.models;
 
 import java.util.Date;
 
-public class Sensor {
+public class Emergency {
   public String id;
   public float latitude;
   public float longitude;
   public float intensity;
-  public float radius;
 
   public Date createdAt;
   public Date updatedAt;
+  public Date deletedAt;
 }
